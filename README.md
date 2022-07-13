@@ -43,6 +43,13 @@
   - [Inline CSS](#inline-css)
   - [Multiple Style Sheets](#multiple-style-sheets)
   - [Cascading Order](#cascading-order)
+- [CSS Properties](#css-properties)
+  - [CSS clip-path Property](#css-clip-path-property)
+  - [CSS transform Property](#css-transform-property)
+  - [CSS Gradients](#css-gradients)
+  - [CSS @keyframes Rule](#css-keyframes-rule)
+  - [CSS Anumations](#css-anumations)
+  - [CSS backface-visibility](#css-backface-visibility)
 
 # What is CSS?
 
@@ -810,3 +817,29 @@ All the styles in a page will "cascade" into a new "virtual" style sheet by the 
 3. Browser default
 
 So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
+
+# CSS Properties
+
+## CSS clip-path Property
+
+https://www.w3schools.com/cssref/css3_pr_clip-path.asp
+
+## CSS transform Property
+
+https://www.w3schools.com/cssref/css3_pr_transform.asp
+
+## CSS Gradients
+
+https://www.w3schools.com/css/css3_gradients.asp
+
+## CSS @keyframes Rule
+
+https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp
+
+## CSS Anumations
+
+https://www.w3schools.com/css/css3_animations.asp
+
+## CSS backface-visibility
+
+https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp
