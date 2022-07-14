@@ -10,7 +10,6 @@
 ## Table of Contents
 
 - [What is CSS?](#what-is-css)
-- [Why use CSS?](#why-use-css)
 - [CSS Solved a Big Problem](#css-solved-a-big-problem)
 - [CSS Syntax](#css-syntax)
 - [CSS Selector](#css-selector)
@@ -30,12 +29,12 @@
     - [The ::marker Pseudo-element](#the-marker-pseudo-element)
     - [The ::selection Pseudo-element](#the-selection-pseudo-element)
   - [Attribute Selectors](#attribute-selectors)
-      - [CSS [attribute="value"] Selector](#css-attributevalue-selector)
-      - [CSS [attribute~="value"] Selector](#css-attributevalue-selector-1)
-      - [CSS [attribute|="value"] Selector](#css-attributevalue-selector-2)
-      - [CSS [attribute^="value"] Selector](#css-attributevalue-selector-3)
-      - [CSS [attribute$="value"] Selector](#css-attributevalue-selector-4)
-      - [CSS [attribute*="value"] Selector](#css-attributevalue-selector-5)
+    - [CSS [attribute="value"] Selector](#css-attributevalue-selector)
+    - [CSS [attribute~="value"] Selector](#css-attributevalue-selector-1)
+    - [CSS [attribute|="value"] Selector](#css-attributevalue-selector-2)
+    - [CSS [attribute^="value"] Selector](#css-attributevalue-selector-3)
+    - [CSS [attribute$="value"] Selector](#css-attributevalue-selector-4)
+    - [CSS [attribute\*="value"] Selector](#css-attributevalue-selector-5)
 - [How To Add CSS](#how-to-add-css)
   - [Three Ways to Insert CSS](#three-ways-to-insert-css)
   - [External CSS](#external-css)
@@ -54,11 +53,7 @@
 
 # What is CSS?
 
-CSS (Cascading Style Sheets) is the language we use to style an HTML document, and it describes how HTML elements should be displayed.
-
-# Why use CSS?
-
-CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+CSS (Cascading Style Sheets) is the language we use to style an HTML document, including variations in display for different devices and screen sizes. It describes how HTML elements should be displayed.
 
 # CSS Solved a Big Problem
 
@@ -91,11 +86,11 @@ A CSS rule consists of a selector and a declaration block.
 
 The selector points to the HTML element you want to style.
 
-The declaration block contains one or more declarations separated by semicolons.
+The declaration block contains one or more declarations separated by semicolons, they are surrounded by curly braces.
 
 Each declaration includes a CSS property name and a value, separated by a colon.
 
-Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+Multiple CSS declarations are separated with semicolons, and declaration blocks
 
 In this example all `<p>` elements will be center-aligned, with a red text color:
 
@@ -130,7 +125,7 @@ div {
 }
 ```
 
-The <u>**ID Selector**</u> uses the id attribute of an HTML element to select a specific element.
+The <u>**_Id Selector_**</u> uses the id attribute of an HTML element to select a specific element.
 
 The id of an element is unique within a page, so the id selector is used to select one unique element.
 
