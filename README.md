@@ -53,7 +53,7 @@
 
 # What is CSS?
 
-CSS (Cascading Style Sheets) is the language we use to style an HTML document, including variations in display for different devices and screen sizes. It describes how HTML elements should be displayed.
+CSS (Cascading Style Sheets) is the language we use to style an HTML document. It describes how HTML elements should be displayed, including variations in display for different devices and screen sizes.
 
 # CSS Solved a Big Problem
 
