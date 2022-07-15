@@ -86,11 +86,9 @@ A CSS rule consists of a selector and a declaration block.
 
 The selector points to the HTML element you want to style.
 
-The declaration block contains one or more declarations separated by semicolons. Blocks are surrounded by curly braces.
+The declaration block, which are surrounded by curly braces, contains one or more declarations separated by semicolons.
 
 Each declaration includes a CSS property name and a value, separated by a colon.
-
-Multiple CSS declarations are separated with semicolons, and declaration blocks
 
 In this example all `<p>` elements will be center-aligned, with a red text color:
 
