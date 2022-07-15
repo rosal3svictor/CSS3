@@ -13,8 +13,8 @@
 - [CSS Solved a Big Problem](#css-solved-a-big-problem)
 - [CSS Syntax](#css-syntax)
 - [CSS Selector](#css-selector)
-  - [Simple Selectors](#simple-selectors)
-  - [Combinator Selectors](#combinator-selectors)
+  - [Simple](#simple)
+  - [Combinator](#combinator)
     - [<u>Descendant Selector</u>](#udescendant-selectoru)
     - [<u>Child Selector (>)</u>](#uchild-selector-u)
     - [<u>Adjacent Sibling Selector (+)</u>](#uadjacent-sibling-selector-u)
@@ -28,7 +28,7 @@
     - [The ::after Pseudo-element](#the-after-pseudo-element)
     - [The ::marker Pseudo-element](#the-marker-pseudo-element)
     - [The ::selection Pseudo-element](#the-selection-pseudo-element)
-  - [Attribute Selectors](#attribute-selectors)
+  - [Attribute](#attribute)
     - [CSS [attribute="value"] Selector](#css-attributevalue-selector)
     - [CSS [attribute~="value"] Selector](#css-attributevalue-selector-1)
     - [CSS [attribute|="value"] Selector](#css-attributevalue-selector-2)
@@ -111,7 +111,7 @@ CSS selectors are used to "find" (or select) the HTML elements you want to style
 
 We can divide CSS selectors into five categories:
 
-## Simple Selectors
+## Simple
 
 Select elements based on name, id, class
 
@@ -217,7 +217,7 @@ p {
 }
 ```
 
-## Combinator Selectors
+## Combinator
 
 Select elements based on a specific relationship between them.
 
@@ -560,7 +560,7 @@ The following example makes the selected text red on a yellow background:
   <img src="./assets/all_pseudo_elements.png" alt="All Pseudo-Classes" />
 </div>
 
-## Attribute Selectors
+## Attribute
 
 The `[attribute]` selector is used to select elements with a specified attribute.
 
