@@ -113,7 +113,7 @@ We can divide CSS selectors into five categories:
 
 ## Simple
 
-Select elements based on name, id, class
+Select elements based on class name, id, class
 
 In this example all `<div>` elements will be set with a background color red:
 
@@ -153,7 +153,7 @@ In this example all HTML elements with class="center" will be red and center-ali
 
 You can also specify that only specific HTML elements should be affected by a class.
 
-In this example only <p> elements with class="center" will be red and center-aligned:
+In this example only `<p>` elements with class="center" will be red and center-aligned:
 
 ```css
 p.center {
@@ -164,7 +164,7 @@ p.center {
 
 HTML elements can also refer to more than one class.
 
-In this example the <p> element will be styled according to class="center" and to class="large":
+In this example the `<p>` element will be styled according to class="center" and to class="large":
 
 ```css
   <p class="center large">This paragraph refers to two classes.</p>
