@@ -50,6 +50,8 @@
   - [CSS Anumations](#css-anumations)
   - [CSS backface-visibility](#css-backface-visibility)
   - [CSS box-shadow](#css-box-shadow)
+- [More Advanced CSS Topics](#more-advanced-css-topics)
+  - [What is the importance of the following piece of code](#what-is-the-importance-of-the-following-piece-of-code)
 
 # What is CSS?
 
@@ -841,3 +843,30 @@ https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp
 ## CSS box-shadow
 
 https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+# More Advanced CSS Topics
+
+## What is the importance of the following piece of code?
+
+```css
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+```
+
+Before understanding _box-sizing_ we have to understand _how the box model_ works:
+**In CSS, elements are made out of the content box itself as well as the
+padding the border and margin**. By default, _box-sixing_ is set to "content-box"
+so, that means that when we give something a width or height we're not setting the
+size of the element, we're setting the size of the context box.
+
+If we set the _box-sizing_ to _border-box_, we are changing the box-model so it
+is included the padding, border and the margin within the specified width and
+height of the element.
+
+Overall, these initial styles help establish predictable layout for your web
+page, which indeed is going to be easier to control.
+
+  - [Inheriting box-sizing Probably Slightly Better Best-Practice](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/)
