@@ -52,6 +52,7 @@
   - [CSS box-shadow](#css-box-shadow)
 - [More Advanced CSS Topics](#more-advanced-css-topics)
   - [What is the importance of the following piece of code](#what-is-the-importance-of-the-following-piece-of-code)
+  - [Relationship of grid layout to other layout methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods)
 
 # What is CSS?
 
@@ -849,11 +850,11 @@ https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
 ## What is the importance of the following piece of code?
 
 ```css
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 ```
 
 Before understanding _box-sizing_ we have to understand _how the box model_ works:
@@ -869,4 +870,4 @@ height of the element.
 Overall, these initial styles help establish predictable layout for your web
 page, which indeed is going to be easier to control.
 
-  - [Inheriting box-sizing Probably Slightly Better Best-Practice](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/)
+- [Inheriting box-sizing Probably Slightly Better Best-Practice](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/)
